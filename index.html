@@ -1,1 +1,175 @@
 
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>STUDY WITH ME | Đồ dùng học tập</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;color:#39333b;background:#fffafd}
+header{background:#fff;position:sticky;top:0;z-index:10;
+display:flex;justify-content:space-between;align-items:center;
+padding:18px 8%;box-shadow:0 2px 12px #eadce5}
+.logo{font-size:25px;font-weight:bold;color:#d56b9d}
+nav a{color:#51444d;text-decoration:none;margin-left:22px;font-size:14px}
+.hero{padding:75px 8%;background:linear-gradient(120deg,#ffe5ef,#fff5f8);
+display:flex;align-items:center;justify-content:space-between;gap:30px}
+.hero h1{font-size:45px;color:#bd5787;margin-bottom:18px}
+.hero p{line-height:1.8;max-width:480px;margin-bottom:25px}
+.hero img{width:43%;border-radius:25px;object-fit:cover}
+.btn{display:inline-block;background:#d66f9e;color:white;
+padding:13px 25px;border-radius:25px;text-decoration:none;font-weight:bold}
+section{padding:65px 8%}
+.heading{text-align:center;margin-bottom:35px}
+.heading h2{color:#bd5787;font-size:30px;margin-bottom:10px}
+.heading p{color:#887b84}
+.about{text-align:center;line-height:1.9;max-width:800px;margin:auto}
+.categories{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.category{background:#fff0f6;padding:25px 10px;border-radius:18px;text-align:center}
+.category span{font-size:38px;display:block;margin-bottom:12px}
+.products{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.product{background:white;border-radius:18px;overflow:hidden;
+box-shadow:0 4px 15px #eadce5;text-align:center;padding-bottom:20px}
+.product img{width:100%;height:190px;object-fit:cover;background:#fff0f6}
+.product h3{font-size:17px;margin:15px 8px 8px}
+.product p{color:#d05f91;font-weight:bold;margin:10px}
+.product small{color:#81747c}
+.product a{display:inline-block;margin-top:12px;background:#e78db3;
+color:white;text-decoration:none;padding:10px 20px;border-radius:20px}
+.promo{background:#ffe8f1;text-align:center;border-radius:22px;padding:45px 20px}
+.promo h2{color:#bd5787;font-size:30px;margin-bottom:15px}
+.contact{text-align:center;line-height:2}
+footer{background:#bd7094;color:white;text-align:center;padding:25px;line-height:2}
+@media(max-width:750px){
+header{flex-direction:column;gap:15px}
+nav a{margin:0 7px;font-size:12px}
+.hero{flex-direction:column;text-align:center;padding:50px 6%}
+.hero h1{font-size:34px}
+.hero img{width:100%}
+.categories{grid-template-columns:repeat(2,1fr)}
+.products{grid-template-columns:repeat(2,1fr)}
+section{padding:45px 6%}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">STUDY WITH ME ✿</div>
+<nav>
+<a href="#home">Trang chủ</a>
+<a href="#about">Giới thiệu</a>
+<a href="#products">Sản phẩm</a>
+<a href="#contact">Liên hệ</a>
+</nav>
+</header>
+
+<div class="hero" id="home">
+<div>
+<h1>Make Your Study More Fun!</h1>
+<p>Chào mừng bạn đến với STUDY WITH ME – nơi cung cấp những món đồ dùng học tập xinh xắn, tiện lợi và giá cả phù hợp với học sinh, sinh viên.</p>
+<a class="btn" href="#products">Khám phá sản phẩm ♡</a>
+</div>
+<img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=900" alt="Góc học tập">
+</div>
+
+<section id="about">
+<div class="heading">
+<h2>Về chúng tôi</h2>
+<p>Study with me – Đồng hành cùng bạn trên hành trình học tập</p>
+</div>
+<div class="about">
+<p>STUDY WITH ME là cửa hàng chuyên cung cấp các sản phẩm đồ dùng học tập dành cho học sinh, sinh viên và những người yêu thích văn phòng phẩm. Chúng tôi mong muốn mang đến những sản phẩm hữu ích, có thiết kế đẹp mắt và mức giá hợp lý.</p>
+<p>Với thông điệp <b>“Học tập vui hơn – Mỗi ngày tốt hơn”</b>, cửa hàng hy vọng sẽ góp phần tạo nên cảm hứng và động lực trong mỗi buổi học của bạn.</p>
+</div>
+</section>
+
+<section>
+<div class="heading">
+<h2>Danh mục sản phẩm</h2>
+<p>Những món đồ nhỏ xinh cho góc học tập của bạn</p>
+</div>
+<div class="categories">
+<div class="category"><span>🖊️</span><b>Bút viết</b></div>
+<div class="category"><span>📒</span><b>Sổ tay</b></div>
+<div class="category"><span>📌</span><b>Giấy note</b></div>
+<div class="category"><span>📐</span><b>Dụng cụ học tập</b></div>
+</div>
+</section>
+
+<section id="products">
+<div class="heading">
+<h2>Sản phẩm nổi bật</h2>
+<p>Lựa chọn yêu thích dành cho góc học tập của bạn ♡</p>
+</div>
+<div class="products">
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=600" alt="Bút viết">
+<h3>Bút gel pastel</h3>
+<small>Viết êm, màu sắc dễ thương</small>
+<p>25.000đ</p>
+<a href="#contact">Tìm hiểu thêm</a>
+</div>
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=600" alt="Sổ tay">
+<h3>Sổ tay học tập</h3>
+<small>Ghi chép và lên kế hoạch</small>
+<p>45.000đ</p>
+<a href="#contact">Tìm hiểu thêm</a>
+</div>
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1517842645767-c639042777db?w=600" alt="Notebook">
+<h3>Notebook mini</h3>
+<small>Nhỏ gọn, tiện lợi</small>
+<p>35.000đ</p>
+<a href="#contact">Tìm hiểu thêm</a>
+</div>
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600" alt="Bộ dụng cụ">
+<h3>Set đồ dùng học tập</h3>
+<small>Combo tiện lợi cho sinh viên</small>
+<p>89.000đ</p>
+<a href="#contact">Tìm hiểu thêm</a>
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="promo">
+<h2>ƯU ĐÃI ĐẶC BIỆT ♡</h2>
+<p>Giảm ngay 10% cho đơn hàng đầu tiên!</p>
+<p>Hãy chọn những món đồ học tập yêu thích của bạn.</p>
+<br>
+<a class="btn" href="#products">Mua sắm ngay</a>
+</div>
+</section>
+
+<section id="contact">
+<div class="heading">
+<h2>Liên hệ với chúng tôi</h2>
+<p>STUDY WITH ME luôn sẵn sàng đồng hành cùng bạn!</p>
+</div>
+<div class="contact">
+<p>📍 Cửa hàng đồ dùng học tập trực tuyến</p>
+<p>📧 Email: studywithme@example.com</p>
+<p>📱 Facebook: STUDY WITH ME</p>
+<p>💗 Cảm ơn bạn đã ghé thăm cửa hàng!</p>
+</div>
+</section>
+
+<footer>
+<h3>STUDY WITH ME ✿</h3>
+<p>Học tập vui hơn – Mỗi ngày tốt hơn</p>
+<p>© 2026 STUDY WITH ME. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
